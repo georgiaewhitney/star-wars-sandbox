@@ -1,8 +1,10 @@
-let baseURL = "https://swapi.dev/api/people/";
-let person = document.getElementById("character")
-let charNumber = Math.floor((Math.random() * 83) + 1)
+const baseURL = "https://swapi.dev/api/people/";
+const person = document.getElementById("character")
+const button = document.getElementById("charButton")
 
-fetch(baseURL + charNumber)
+function generateCharacter() {
+  let charNumber = Math.floor((Math.random() * 83) + 1);
+  fetch(baseURL + charNumber)
   .then((response) => response.json())
   .then((json) => {
     console.log(json)
@@ -11,3 +13,6 @@ fetch(baseURL + charNumber)
       <h3>Born: ${json.birth_year}</h3>
     `
   });
+}
+
+
