@@ -1,1 +1,1 @@
-// script
+let baseURL = "https://swapi.dev/api/";
