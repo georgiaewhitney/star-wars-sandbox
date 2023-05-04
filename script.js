@@ -6,5 +6,8 @@ fetch(baseURL + charNumber)
   .then((response) => response.json())
   .then((json) => {
     console.log(json)
-    person.innerHTML = `<h2>${json.name}</h2>`
+    person.innerHTML = `
+      <h2>${json.name}</h2>
+      <h3>Born: ${json.birth_year}</h3>
+    `
   });
