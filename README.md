@@ -2,6 +2,8 @@
 
 This is a sandbox project for playing around with the Star Wars API (SWAPI). It allows you to generate a random character from the Star Wars universe and display some information about them.
 
+The SWAPI is not fully-fledged, so it's a very bare bones operation at the moment. 
+
 ## Getting started
 
 To get started, simply click the "Generate Character" button on the page. This will fetch a random character from the SWAPI and display their name and birth year.
