@@ -35,18 +35,25 @@ main {
 
 #charButton {
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 2px solid #333;
   border-radius: 3px;
   color: #333;
   font-size: 1.5rem;
   padding: 1rem 2rem;
   margin-top: 2rem;
   cursor: pointer;
+  transition: transform 0.2s ease-in-out;
 }
 
 #charButton:hover {
-  background-color: #f5f5f5;
+  background-color: #333;
+  color: #fff;
 }
+
+#charButton:active {
+  transform: scale(0.95);
+}
+
 
 h2 {
   font-size: 2.5rem;
@@ -142,11 +149,15 @@ h3 {
     line-height: 1.5rem;
   }
   
-  .dot1,
-  .dot2,
-  .dot3 {
-    width: 1.5rem;
+  .dot-container {
+    width: 6rem;
     height: 1.5rem;
-    margin: 0.5rem;
+    font-size: 3rem;
+  }
+  
+  .dot {
+    width: 1rem;
+    height: 1rem;
+    top: 0.25rem;
   }
 }
