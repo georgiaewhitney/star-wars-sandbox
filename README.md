@@ -11,13 +11,7 @@ To get started, simply click the "Generate Character" button on the page. This w
 This project uses the following dependencies:
 
 - [SWAPI](https://swapi.dev/) - the Star Wars API used to fetch character data
-- [Font Awesome](https://fontawesome.com/) - an icon library used to display the loading animation
 
 ## Credits
 
-This project was created by [Your Name]. Feel free to use it as a starting point for your own Star Wars projects!
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
+This project was created by Georgia for some May 4th fun. Feel free to use it as a starting point for your own Star Wars projects!
