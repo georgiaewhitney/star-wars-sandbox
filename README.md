@@ -16,4 +16,4 @@ This project uses the following dependencies:
 
 ## Credits
 
-This project was created by Georgia for some May 4th fun. Feel free to use it as a starting point for your own Star Wars projects!
+This project was created by [Georgia](https://github.com/georgiaewhitney) for some May 4th fun. Feel free to use it as a starting point for your own Star Wars projects!
